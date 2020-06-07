@@ -1,2 +1,2 @@
 # MLOPS_HW3
-Integration of Machine learning and Devops by deploying a model in a container and training it, after training if the accuracy is less than 85 percent then the the tools will tweak the accuracy and train it again once the accuracy is above 85 percentage
+Integration of Machine learning and Devops by deploying a model in a container and training it, after training if the accuracy is less than 85 percent then the parameter of the model is changed automatically and the model is retrained, this process is repeated again and again until the desired accuracy is achieved. Once the desired accuracy is achieved an email will be sent to the developer.
